@@ -53,10 +53,11 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = i3 xwindow 
 modules-center = 
-modules-right = filesystem xbacklight memory cpu battery temperature date powermenu wlan
+modules-right = filesystem xbacklight memory cpu battery temperature date wlan
 
 tray-position = right
 tray-padding = 2
+tray-background = ${colors.background}
 ;tray-transparent = true
 ;tray-background = #0063ff
 
@@ -179,14 +180,18 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wlp4s0
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
+format-connected-prefix = "wlan "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+format-connected = <label-connected>
+format-connected-underline = #00000000
 label-connected = %essid%
 
-format-disconnected =
+format-disconnected-prefix = "wlan "
+format-disconnected-prefix-foreground = ${colors.foreground-alt}
+format-disconnected = [none]
 ;format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
@@ -268,7 +273,7 @@ adapter = AC
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = #00000000
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
@@ -294,7 +299,7 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = #f50a4d
+format-underline = #00000000
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
