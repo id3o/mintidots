@@ -16,6 +16,7 @@
  * [Fira Mono for Powerline](https://github.com/powerline/fonts)
  * lolcat
  * XFCE4 (for backlight & volume controls)
+ * NetworkManager
 
 ## Installation
 
@@ -38,3 +39,8 @@ Then, run `config --checkout`. It will probably give an output like this:
 To fix this, delete all the files it complains about (making sure that you back up anything you want to keep). Once you're done, run `config checkout` once again.
 
 After install, remember to run `:PluginInstall` in vim.
+
+## Todo
+
+ * theme rofi
+ * theme i3's bars (they still show up in tabbed mode
