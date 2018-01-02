@@ -15,6 +15,7 @@
 ### Non-critical
  * Fira Mono for Powerline
  * lolcat
+ * XFCE4 (for backlight & volume controls)
 
 ## Installation
 
