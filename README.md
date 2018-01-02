@@ -1,8 +1,8 @@
-=Minimal i3 setup for my laptop
+# Minimal i3 setup for my laptop
 
-==Prerequisites
+## Prerequisites
 
-===Critical
+### Critical
  * an Ubuntu 16.04 or Mint 18.X install
  * termite
  * i3-gaps
@@ -12,11 +12,11 @@
  * rofi
  * vim-huge with Vundle
 
-=== Non-critical
+### Non-critical
  * Fira Mono for Powerline
  * lolcat
 
-==Installation
+## Installation
 
 To install, run the following commands:
 
