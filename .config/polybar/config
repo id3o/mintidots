@@ -15,6 +15,7 @@ urgent = #FFFFFF
 ;foreground = ${xrdb:color7:#222}
 foreground = #ffffffff
 foreground-alt = #50ffffff
+underline = #ffffdd00 
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -50,8 +51,8 @@ font-0 = fixed:pixelsize=9;1
 font-1 = unifont:fontformat=truetype:size=7:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
-modules-left = bspwm i3
-modules-center = xwindow 
+modules-left = i3 xwindow 
+modules-center = 
 modules-right = filesystem xbacklight memory cpu battery temperature date powermenu wlan
 
 tray-position = right
@@ -130,7 +131,7 @@ label-unfocused-padding = 3
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
 label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
+label-visible-underline = ${colors.underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
