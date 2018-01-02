@@ -4,16 +4,16 @@
 
 ### Critical
  * an Ubuntu 16.04 or Mint 18.X install
- * termite
- * i3-gaps
- * Oh My Zsh!
- * polybar
+ * [termite](https://github.com/thestinger/termite)
+ * [i3-gaps](https://github.com/Airblader/i3)
+ * Oh My Zsh!(https://github.com/robbyrussel/oh-my-zsh)
+ * polybar(https://github.com/jaagr/polybar)
  * compton
- * rofi
- * vim-huge with Vundle
+ * rofi(https://github.com/DaveDavenport/rofi)
+ * vim-huge with Vundle(https://github.com/VundleVim/Vundle.vim)
 
 ### Non-critical
- * Fira Mono for Powerline
+ * Fira Mono for Powerline(https://github.com/powerline/fonts)
  * lolcat
  * XFCE4 (for backlight & volume controls)
 
