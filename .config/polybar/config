@@ -101,7 +101,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted = %used%
+label-mounted = %used% / %total%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -303,7 +303,7 @@ format-underline = #00000000
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
-label = %temperature%
+label = temp %temperature%
 label-warn = %temperature%
 label-warn-foreground = ${colors.secondary}
 

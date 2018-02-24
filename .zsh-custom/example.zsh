@@ -10,4 +10,7 @@
 #
 startup="$(whoami) @ $(hostname)"
 echo $startup | lolcat -F -0.6 -S 13 
+#alias sshx="TERM=xterm ssh xanthippe.mill.pearson.co.uk"
+alias sshx="ssh xanthippe.mill.pearson.co.uk"
+alias ppfs="$HOME/.scripts/ppfs"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
