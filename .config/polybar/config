@@ -8,11 +8,9 @@
 ;=====================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
-background = #50100800
-background-alt = #50100800
+;-- tray doesnt support alpha --;
+background = #303030
 urgent = #FFFFFF
-;foreground = ${xrdb:color7:#222}
 foreground = #ffffffff
 foreground-alt = #50ffffff
 underline = #ffffdd00 
@@ -56,8 +54,8 @@ modules-center =
 modules-right = filesystem xbacklight memory cpu battery temperature date wlan
 
 tray-position = right
-tray-padding = 2
-tray-background = ${colors.background}
+tray-padding = 8
+;tray-background = ${colors.background}
 ;tray-transparent = true
 ;tray-background = #0063ff
 

@@ -16,6 +16,8 @@
  * [Fira Mono for Powerline](https://github.com/powerline/fonts)
  * lolcat
  * XFCE4 (for backlight & volume controls)
+ [no longer using xfce - install light(need to build) instead]
+ * [use pactl for volume - preinstalled]
  * NetworkManager
 
 ## Installation
